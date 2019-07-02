@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xep loai hoc sinh</title>
+</head>
+<body>
+<script>
+    let diemKiemTra = Number(prompt('nhap diem kiem tra'));
+    let diemGiuaKy = Number(prompt('nhap diem thi giua ky'));
+    let diemCuoiKy = Number(prompt('nhap diem thi cuoi ky'));
+    let trungBinh = (diemKiemTra + diemGiuaKy + diemCuoiKy) / 3
+    if (trungBinh < 5) {
+        alert('hoc sinh dat hang F');
+    } else if (trungBinh < 7) {
+        alert('hoc sinh dat hang C');
+    } else if (trungBinh < 9) {
+        alert('hoc sinh dat hang B');
+    } else {
+        alert('hoc sinh dat hang A');
+    }
+</script>
+</body>
+</html>
